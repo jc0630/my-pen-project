@@ -9,7 +9,7 @@ import Services from "@/components/sections/Services";
 
 export default function Home() {
   return (
-    <main className="box-border mx-auto max-w-[1440px] w-full h-fit flex flex-col gap-0 justify-start items-start bg-white overflow-hidden">
+    <main className="w-full bg-white">
       <Nav />
       <Hero />
       <About />

@@ -20,6 +20,10 @@
     height: 100%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .font-main {
     font-family: var(--font-noto-sans-tc), "Noto Sans TC", system-ui, sans-serif;
   }
@@ -28,4 +32,26 @@
 body {
   background: var(--color-white);
   color: var(--color-text-primary);
+}
+
+@keyframes float-slow {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(8px, -12px) scale(1.04);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-slow {
+    animation: none !important;
+  }
 }
