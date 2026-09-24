@@ -1,0 +1,4205 @@
+{
+  "version": "2.18",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Iygkp",
+      "x": 0,
+      "y": 0,
+      "name": "環保清潔垃圾車 Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$white",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Y4JNrH",
+          "name": "Nav",
+          "width": "fill_container",
+          "fill": "$white",
+          "padding": [
+            20,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "cTKmr",
+              "name": "Logo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UDKvL",
+                  "name": "Logo Mark",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "$pink-500",
+                  "cornerRadius": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "H10790",
+                      "name": "Logo Icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "recycle",
+                      "library": "lucide",
+                      "fill": "$white"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eClqk",
+                  "name": "Logo Text",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GGlbJ",
+                      "name": "Brand",
+                      "fill": "$text-primary",
+                      "content": "潔淨家園",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-main",
+                      "fontSize": 19,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SIGna",
+                      "name": "Brand EN",
+                      "fill": "$pink-500",
+                      "content": "CLEAN HOME ECO",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-main",
+                      "fontSize": 9,
+                      "fontWeight": "500",
+                      "letterSpacing": 1.6
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JLswK",
+              "name": "Menu",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EDcxj",
+                  "name": "關於我們",
+                  "fill": "$text-secondary",
+                  "content": "關於我們",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "w2d15c",
+                  "name": "服務項目",
+                  "fill": "$text-secondary",
+                  "content": "服務項目",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "b7Wfqd",
+                  "name": "車輛介紹",
+                  "fill": "$text-secondary",
+                  "content": "車輛介紹",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "uZ9p7",
+                  "name": "專業認證",
+                  "fill": "$text-secondary",
+                  "content": "專業認證",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Crc0f",
+                  "name": "聯絡我們",
+                  "fill": "$text-secondary",
+                  "content": "聯絡我們",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "m61Qbv",
+              "name": "Nav CTA",
+              "fill": "$pink-500",
+              "cornerRadius": 999,
+              "gap": 8,
+              "padding": [
+                12,
+                26
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HZ8EZ",
+                  "name": "Label",
+                  "fill": "$white",
+                  "content": "免費估價",
+                  "fontFamily": "$font-main",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gqE0z",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "fill": [
+            "$pink-50",
+            {
+              "type": "gradient",
+              "gradientType": "radial",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "width": 0.9,
+                "height": 0.9
+              },
+              "colors": [
+                {
+                  "color": "#FFD9E6",
+                  "position": 0
+                },
+                {
+                  "color": "#FFF6F800",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "x": 0.78,
+                "y": 0.2
+              }
+            }
+          ],
+          "gap": 56,
+          "padding": [
+            72,
+            64,
+            88,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "uWhx3",
+              "layoutPosition": "absolute",
+              "x": -90,
+              "y": -80,
+              "name": "Blob A",
+              "fill": "#FFE0EA",
+              "width": 260,
+              "height": 260
+            },
+            {
+              "type": "ellipse",
+              "id": "eaG7J",
+              "layoutPosition": "absolute",
+              "x": 120,
+              "y": 430,
+              "name": "Blob B",
+              "fill": "#E4F7F0",
+              "width": 120,
+              "height": 120
+            },
+            {
+              "type": "frame",
+              "id": "bXlGA",
+              "name": "Hero Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 26,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g10Ih",
+                  "name": "Badge",
+                  "fill": "$white",
+                  "cornerRadius": 999,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#FF7BA61F",
+                    "offset": {
+                      "x": 0,
+                      "y": 4
+                    },
+                    "blur": 14
+                  },
+                  "gap": 8,
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "z164t6",
+                      "name": "Leaf",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "sparkles",
+                      "library": "lucide",
+                      "fill": "$mint"
+                    },
+                    {
+                      "type": "text",
+                      "id": "j5eDFB",
+                      "name": "Badge Text",
+                      "fill": "$text-secondary",
+                      "content": "環保署合格清除機構 ‧ 全台服務",
+                      "fontFamily": "$font-main",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "KITJ0",
+                  "name": "Headline",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "讓城市每一天\n都乾淨得剛剛好",
+                  "lineHeight": 1.25,
+                  "fontFamily": "$font-main",
+                  "fontSize": 60,
+                  "fontWeight": "bold",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "ESoqA",
+                  "name": "Subhead",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "從社區垃圾清運到事業廢棄物處理，潔淨家園以低碳車隊、合法流向與準時服務，陪你把環境照顧好。",
+                  "lineHeight": 1.9,
+                  "fontFamily": "$font-main",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "EJ3DS",
+                  "name": "CTA Row",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OfgbL",
+                      "name": "Primary CTA",
+                      "fill": "$pink-500",
+                      "cornerRadius": 999,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#FF7BA659",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      },
+                      "gap": 9,
+                      "padding": [
+                        16,
+                        32
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q48U6",
+                          "name": "Label",
+                          "fill": "$white",
+                          "content": "立即預約清運",
+                          "fontFamily": "$font-main",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Gpc9z",
+                          "name": "Arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F6GHyv",
+                      "name": "Secondary CTA",
+                      "fill": "$white",
+                      "cornerRadius": 999,
+                      "stroke": "$pink-200",
+                      "strokeWidth": 1.5,
+                      "gap": 9,
+                      "padding": [
+                        16,
+                        30
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "J6fc1d",
+                          "name": "Phone",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "phone-call",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cKMAZ",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "0800-123-456",
+                          "fontFamily": "$font-main",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hdNjz",
+                  "name": "Stats",
+                  "gap": 38,
+                  "padding": [
+                    18,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vwZen",
+                      "name": "Stat 服務社區戶數",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Cg5kG",
+                          "name": "Value",
+                          "fill": "$pink-600",
+                          "content": "12,000+",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-main",
+                          "fontSize": 28,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qm31L",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "服務社區戶數",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sezNK",
+                      "name": "Stat 準時到達率",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eAdQJ",
+                          "name": "Value",
+                          "fill": "$pink-600",
+                          "content": "98%",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-main",
+                          "fontSize": 28,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W1Q36T",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "準時到達率",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mKHDh",
+                      "name": "Stat 清運經驗",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e2ZT1F",
+                          "name": "Value",
+                          "fill": "$pink-600",
+                          "content": "15年",
+                          "lineHeight": 1.3,
+                          "fontFamily": "$font-main",
+                          "fontSize": 28,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Q6tft2",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "清運經驗",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "X8JOQ8",
+              "name": "Hero Image",
+              "clip": true,
+              "width": 628,
+              "height": 520,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "untitled-assets/generated.png",
+                "mode": "fill"
+              },
+              "cornerRadius": [
+                180,
+                32,
+                32,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "aRCaI",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "$white",
+          "gap": 64,
+          "padding": [
+            96,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pSLLB",
+              "name": "About Visual",
+              "width": 560,
+              "height": 520,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "A2R1Qh",
+                  "x": 0,
+                  "y": 0,
+                  "name": "About Image",
+                  "clip": true,
+                  "width": 307,
+                  "height": 327,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-1.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 32
+                },
+                {
+                  "type": "frame",
+                  "id": "GWHLE",
+                  "x": 211,
+                  "y": 272,
+                  "name": "About Image Small",
+                  "clip": true,
+                  "width": 349,
+                  "height": 248,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "untitled-assets/generated-2.png",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 28,
+                  "stroke": "$white",
+                  "strokeWidth": 8
+                },
+                {
+                  "type": "frame",
+                  "id": "cg2TV",
+                  "x": 326,
+                  "y": 84,
+                  "name": "Float Card",
+                  "width": 220,
+                  "fill": "$white",
+                  "cornerRadius": 20,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#E5B7C71F",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 32
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o2GVd",
+                      "name": "Row",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "JKsmc",
+                          "name": "Icon Wrap",
+                          "width": 36,
+                          "height": 36,
+                          "fill": "$mint-light",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "DhFaN",
+                              "name": "Icon",
+                              "width": 19,
+                              "height": 19,
+                              "icon": "leaf",
+                              "library": "lucide",
+                              "fill": "#3FA98A"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "a7AiMZ",
+                          "name": "Value",
+                          "fill": "$text-primary",
+                          "content": "減碳 32%",
+                          "fontFamily": "$font-main",
+                          "fontSize": 18,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SBC3j",
+                      "name": "Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "全車隊改用低汙染動力，年減碳排放超過 180 公噸。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "$font-main",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z5KnAr",
+              "name": "About Copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VL1hO",
+                  "name": "Eyebrow",
+                  "fill": "$pink-500",
+                  "content": "ABOUT US ‧ 關於我們",
+                  "fontFamily": "$font-main",
+                  "fontSize": 13,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1.6
+                },
+                {
+                  "type": "text",
+                  "id": "D1lhb",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "一支把環境當自己家在照顧的清潔車隊",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-main",
+                  "fontSize": 38,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "GuKvz",
+                  "name": "Body",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "潔淨家園成立於 2010 年，從一台壓縮式垃圾車起步，如今擁有 28 輛合法登記的環保清運車輛。我們相信乾淨的街道不只是服務，而是一座城市的呼吸方式。",
+                  "lineHeight": 1.95,
+                  "fontFamily": "$font-main",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "tWWQM",
+                  "name": "Feature Grid",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    10,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "fihRk",
+                      "name": "Feature Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cG1QQ",
+                          "name": "合法許可",
+                          "width": "fill_container",
+                          "fill": "$pink-50",
+                          "cornerRadius": 18,
+                          "gap": 12,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "q6R4o",
+                              "name": "Icon Wrap",
+                              "width": 38,
+                              "height": 38,
+                              "fill": "$white",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "Pp3lN",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "shield-check",
+                                  "library": "lucide",
+                                  "fill": "$pink-500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DeJiR",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "tZEwJ",
+                                  "name": "Title",
+                                  "fill": "$text-primary",
+                                  "content": "合法許可",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 15,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "M3vxqk",
+                                  "name": "Desc",
+                                  "fill": "$text-secondary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "甲級廢棄物清除許可證",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PVRx5",
+                          "name": "準時抵達",
+                          "width": "fill_container",
+                          "fill": "$pink-50",
+                          "cornerRadius": 18,
+                          "gap": 12,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "E3q9J",
+                              "name": "Icon Wrap",
+                              "width": 38,
+                              "height": 38,
+                              "fill": "$white",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "HFCBo",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "alarm-clock",
+                                  "library": "lucide",
+                                  "fill": "$pink-500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f5UXY",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Y1JHf",
+                                  "name": "Title",
+                                  "fill": "$text-primary",
+                                  "content": "準時抵達",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 15,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "v8DqS",
+                                  "name": "Desc",
+                                  "fill": "$text-secondary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "GPS 即時追蹤派車系統",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "n8JAe5",
+                      "name": "Feature Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MEx8l",
+                          "name": "確實分類",
+                          "width": "fill_container",
+                          "fill": "$pink-50",
+                          "cornerRadius": 18,
+                          "gap": 12,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zBKOz",
+                              "name": "Icon Wrap",
+                              "width": 38,
+                              "height": 38,
+                              "fill": "$white",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "qdbQn",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "recycle",
+                                  "library": "lucide",
+                                  "fill": "$pink-500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "e92z3",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "A3t2WO",
+                                  "name": "Title",
+                                  "fill": "$text-primary",
+                                  "content": "確實分類",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 15,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "qgEpf",
+                                  "name": "Desc",
+                                  "fill": "$text-secondary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "源頭分類與資源回收流程",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v1LmQR",
+                          "name": "貼心服務",
+                          "width": "fill_container",
+                          "fill": "$pink-50",
+                          "cornerRadius": 18,
+                          "gap": 12,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "wYGDQ",
+                              "name": "Icon Wrap",
+                              "width": 38,
+                              "height": 38,
+                              "fill": "$white",
+                              "cornerRadius": 12,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "G98IUG",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "heart-handshake",
+                                  "library": "lucide",
+                                  "fill": "$pink-500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uJiWv",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "nevA8",
+                                  "name": "Title",
+                                  "fill": "$text-primary",
+                                  "content": "貼心服務",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 15,
+                                  "fontWeight": "bold"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "NHKaO",
+                                  "name": "Desc",
+                                  "fill": "$text-secondary",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "專人窗口 24 小時回覆",
+                                  "lineHeight": 1.6,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A2NPE",
+          "name": "Services",
+          "width": "fill_container",
+          "fill": "$pink-50",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            96,
+            64
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Gzo3W",
+              "name": "Section Head",
+              "width": 760,
+              "layout": "vertical",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r2IRe",
+                  "name": "Eyebrow",
+                  "fill": "$pink-500",
+                  "content": "SERVICES ‧ 服務項目",
+                  "fontFamily": "$font-main",
+                  "fontSize": 13,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1.6
+                },
+                {
+                  "type": "text",
+                  "id": "gk3Yk",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "從一袋垃圾到一整棟大樓，我們都接得住",
+                  "lineHeight": 1.45,
+                  "textAlign": "center",
+                  "fontFamily": "$font-main",
+                  "fontSize": 38,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "PqM7i",
+                  "name": "Sub",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "依照廢棄物種類與清運頻率彈性配車，提供合法聯單與處理紀錄。",
+                  "lineHeight": 1.9,
+                  "textAlign": "center",
+                  "fontFamily": "$font-main",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n9bsfA",
+              "name": "Service Row 1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "s9x3m",
+                  "name": "社區定期清運",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$pink-500",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ntBl6",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#FFFFFF33",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "nM527",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "trash-2",
+                          "library": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "L02Qi",
+                      "name": "Title",
+                      "fill": "$white",
+                      "content": "社區定期清運",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qekmr",
+                      "name": "Desc",
+                      "fill": "#FFFFFFD9",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "固定班表到府收運，含一般垃圾、廚餘與資源回收分流。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qeFbK",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ldb5h",
+                          "name": "Label",
+                          "fill": "$white",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "sZXsR",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Epcbz",
+                  "name": "商辦大樓清潔",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$white",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lmdVg",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$mint-light",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "HPpKn",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "building-2",
+                          "library": "lucide",
+                          "fill": "#3FA98A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "lFK4H",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "商辦大樓清潔",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ClxNG",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "為餐飲、辦公與賣場規劃專屬車次，離峰時段不打擾營運。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e4dRnR",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cYM29",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "WB63W",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yaDI7",
+                  "name": "大型廢棄物",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$white",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZMAfQ",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#FFF1CF",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "lD4Pl",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "package-open",
+                          "library": "lucide",
+                          "fill": "#E0A020"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Udxnd",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "大型廢棄物",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PeZ6Y",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "家具、家電與裝潢廢料到府搬運，一通電話就搞定。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cGz5h",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nLabV",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "X9yiAZ",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nIQ3z",
+              "name": "Service Row 2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c9DqwF",
+                  "name": "事業廢棄物",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$white",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CqGHm",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$pink-100",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "nHR5A",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "flask-conical",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j8Jyy",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "事業廢棄物",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hqc5W",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "甲級清除許可，全程 GPS 追蹤並提供合法流向聯單。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SDMpQ",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c4CiOA",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "N6Obq",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g3tiQf",
+                  "name": "社區消毒服務",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$white",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "UQwTN",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#EEEAFB",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "k2BJO",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "sparkles",
+                          "library": "lucide",
+                          "fill": "#7C6BD6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "RrBKC",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "社區消毒服務",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WeJm0",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "垃圾集中區除臭消毒，搭配定期病媒防治。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N0f7l7",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P4NtPK",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "EE4Mc",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dp5EA",
+                  "name": "回收再利用諮詢",
+                  "width": "fill_container",
+                  "height": 258,
+                  "fill": "$white",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 28,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "H5h3Ov",
+                      "name": "Icon Wrap",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "$mint-light",
+                      "cornerRadius": 16,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "r9jvKb",
+                          "name": "Icon",
+                          "width": 25,
+                          "height": 25,
+                          "icon": "leaf",
+                          "library": "lucide",
+                          "fill": "#3FA98A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "HCUmQ",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "回收再利用諮詢",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-main",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mwxMl",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "協助企業建立減量方案與 ESG 廢棄物數據報告。",
+                      "lineHeight": 1.85,
+                      "fontFamily": "$font-main",
+                      "fontSize": 14.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i83qCi",
+                      "name": "Link",
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OQYxb",
+                          "name": "Label",
+                          "fill": "$pink-600",
+                          "content": "了解更多",
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "cQsZt",
+                          "name": "Arrow",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$pink-600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d3kZJm",
+          "name": "Fleet",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            96,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "gywbh",
+              "name": "Fleet Head",
+              "width": "fill_container",
+              "gap": 40,
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mkKZ3",
+                  "name": "Head Copy",
+                  "width": 660,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "geSb2",
+                      "name": "Eyebrow",
+                      "fill": "$pink-500",
+                      "content": "OUR FLEET ‧ 車輛介紹",
+                      "fontFamily": "$font-main",
+                      "fontSize": 13,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "S0OAxt",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "28 輛低碳清運車，各司其職",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-main",
+                      "fontSize": 38,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ofhqd",
+                      "name": "Sub",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每一輛車皆通過定期排氣檢測與機械保養，並配備即時定位與載重感測。",
+                      "lineHeight": 1.9,
+                      "fontFamily": "$font-main",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N80gMS",
+                  "name": "Fleet CTA",
+                  "fill": "$pink-50",
+                  "cornerRadius": 999,
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    26
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FSjrf",
+                      "name": "Label",
+                      "fill": "$pink-600",
+                      "content": "查看完整車隊",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "NBq6z",
+                      "name": "Arrow",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "arrow-up-right",
+                      "library": "lucide",
+                      "fill": "$pink-600"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BqWmG",
+              "name": "Fleet Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "U9BJP",
+                  "name": "壓縮式垃圾車",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$pink-50",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hZBd3",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "untitled-assets/generated-3.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eAOM1",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "YACPr",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rcT4r",
+                              "name": "Title",
+                              "fill": "$text-primary",
+                              "content": "壓縮式垃圾車",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-main",
+                              "fontSize": 21,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "I6v8J",
+                              "name": "Tag",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "padding": [
+                                5,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QWK2b",
+                                  "name": "Label",
+                                  "fill": "$pink-600",
+                                  "content": "8 噸 ‧ 雙人作業",
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "FC0LH",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "社區與街道定期清運主力，壓縮比 1:5，可有效降低往返趟次。",
+                          "lineHeight": 1.85,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y9oGp6",
+                          "name": "Specs",
+                          "width": "fill_container",
+                          "stroke": "$pink-200",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "N0CUb",
+                              "name": "載重",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Hp88H",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "載重",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KObmF",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "8,000 kg",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ktZfb",
+                              "name": "動力",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "KitwM",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "動力",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KNrpY",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "柴油 Euro 6",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AdCtf",
+                  "name": "資源回收專車",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$pink-50",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "yzo2z",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "untitled-assets/generated-4.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sUAYH",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "j1VaJ",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JTFUk",
+                              "name": "Title",
+                              "fill": "$text-primary",
+                              "content": "資源回收專車",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-main",
+                              "fontSize": 21,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "z4lUnJ",
+                              "name": "Tag",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "padding": [
+                                5,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qmw8Z",
+                                  "name": "Label",
+                                  "fill": "$pink-600",
+                                  "content": "5 噸 ‧ 分隔車斗",
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "XSYp2",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "車斗分隔設計，紙類、塑膠、金屬一次收運不混雜。",
+                          "lineHeight": 1.85,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "S6lpY",
+                          "name": "Specs",
+                          "width": "fill_container",
+                          "stroke": "$pink-200",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "WPo24",
+                              "name": "分類",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "BNhjK",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "分類",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "rWDb2",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "4 格車斗",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MJk83",
+                              "name": "動力",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hULEa",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "動力",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WjqB7",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "油電混合",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SAxAG",
+                  "name": "廚餘桶裝車",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$pink-50",
+                  "cornerRadius": 26,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e6YR2",
+                      "name": "Photo",
+                      "width": "fill_container",
+                      "height": 230,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "untitled-assets/generated-6.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "DgoEH",
+                      "name": "Body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "R2XG4",
+                          "name": "Title Row",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YwSzH",
+                              "name": "Title",
+                              "fill": "$text-primary",
+                              "content": "廚餘桶裝車",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-main",
+                              "fontSize": 21,
+                              "fontWeight": "bold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "R645Ek",
+                              "name": "Tag",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "padding": [
+                                5,
+                                12
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "j6sXw",
+                                  "name": "Label",
+                                  "fill": "$pink-600",
+                                  "content": "3.5 噸 ‧ 密封式",
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "HMg0R",
+                          "name": "Desc",
+                          "fill": "$text-secondary",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "全密封不鏽鋼桶槽，配備除臭系統，每日清洗消毒。",
+                          "lineHeight": 1.85,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yXXkK",
+                          "name": "Specs",
+                          "width": "fill_container",
+                          "stroke": "$pink-200",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ggEF0",
+                              "name": "桶槽",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "d2LHa",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "桶槽",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q5yQe0",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "不鏽鋼密封",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zKgKY",
+                              "name": "動力",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "tbebu",
+                                  "name": "Key",
+                                  "fill": "$text-secondary",
+                                  "content": "動力",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 11.5,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Mc24h",
+                                  "name": "Value",
+                                  "fill": "$text-primary",
+                                  "content": "電動底盤",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oJzYv",
+          "name": "Certifications",
+          "clip": true,
+          "width": "fill_container",
+          "fill": [
+            "$pink-100",
+            {
+              "type": "gradient",
+              "gradientType": "linear",
+              "enabled": true,
+              "rotation": 200,
+              "size": {
+                "height": 1
+              },
+              "colors": [
+                {
+                  "color": "#FFFFFFE6",
+                  "position": 0
+                },
+                {
+                  "color": "#FFE7EE00",
+                  "position": 0.75
+                }
+              ]
+            }
+          ],
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            96,
+            64
+          ],
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "DGl6U",
+              "layoutPosition": "absolute",
+              "x": 1180,
+              "y": -120,
+              "name": "Blob",
+              "fill": "#FFFFFF66",
+              "width": 320,
+              "height": 320
+            },
+            {
+              "type": "frame",
+              "id": "a4zLBF",
+              "name": "Cert Head",
+              "width": 820,
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I5XNw9",
+                  "name": "Eyebrow",
+                  "fill": "$pink-600",
+                  "content": "CERTIFICATIONS ‧ 專業認證",
+                  "fontFamily": "$font-main",
+                  "fontSize": 13,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1.6
+                },
+                {
+                  "type": "text",
+                  "id": "qEbEZ",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "每一趟清運，都有合法文件與紀錄可查",
+                  "lineHeight": 1.45,
+                  "fontFamily": "$font-main",
+                  "fontSize": 38,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ed011",
+              "name": "Cert Cards",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "B9AKX",
+                  "name": "甲級廢棄物清除許可",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#D98FAB26",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 28
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FWn81",
+                      "name": "Icon Wrap",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$pink-50",
+                      "cornerRadius": 999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "TsoDJ",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "award",
+                          "library": "lucide",
+                          "fill": "$pink-500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Lg7pP",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "甲級廢棄物清除許可",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 17,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vzYAX",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "環保署核發，可清除一般及事業廢棄物。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$font-main",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "t66sd",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I3Ydvr",
+                          "name": "Meta Text",
+                          "fill": "$pink-600",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "字號 環署廢字第 09876 號",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 11.5,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jRho2",
+                  "name": "ISO 14001 環境管理",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#D98FAB26",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 28
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mFkW7",
+                      "name": "Icon Wrap",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$pink-50",
+                      "cornerRadius": 999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ff7Vi",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "badge-check",
+                          "library": "lucide",
+                          "fill": "$pink-500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hOyFR",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ISO 14001 環境管理",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 17,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "IB9tF",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "通過國際環境管理系統驗證與年度追查。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$font-main",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c3tSNH",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zp2zB",
+                          "name": "Meta Text",
+                          "fill": "$pink-600",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "有效期至 2027.06",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 11.5,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gXSgw",
+                  "name": "ISO 45001 職安衛",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#D98FAB26",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 28
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h54Osv",
+                      "name": "Icon Wrap",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$pink-50",
+                      "cornerRadius": 999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "WgQmP",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "shield-check",
+                          "library": "lucide",
+                          "fill": "$pink-500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "miKB3",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ISO 45001 職安衛",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 17,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tfG30",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "作業人員定期教育訓練與安全稽核。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$font-main",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sKr5B",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LoA8P",
+                          "name": "Meta Text",
+                          "fill": "$pink-600",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "有效期至 2027.03",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 11.5,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oGfWj",
+                  "name": "GPS 流向聯單系統",
+                  "width": "fill_container",
+                  "height": 270,
+                  "fill": "$white",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#D98FAB26",
+                    "offset": {
+                      "x": 0,
+                      "y": 10
+                    },
+                    "blur": 28
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 26,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "md9y4",
+                      "name": "Icon Wrap",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$pink-50",
+                      "cornerRadius": 999,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "yUftK",
+                          "name": "Icon",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "file-check",
+                          "library": "lucide",
+                          "fill": "$pink-500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yrdTM",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "GPS 流向聯單系統",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 17,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "G1Qj8",
+                      "name": "Desc",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "全程電子聯單申報，流向可即時查詢。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "$font-main",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GwMKO",
+                      "name": "Meta",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e8I1j",
+                          "name": "Meta Text",
+                          "fill": "$pink-600",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "串接環保署申報平台",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 11.5,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KUUpV",
+              "name": "Partners",
+              "width": "fill_container",
+              "fill": "#FFFFFFB3",
+              "cornerRadius": 20,
+              "gap": 24,
+              "padding": [
+                22,
+                32
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bDQVv",
+                  "name": "Label",
+                  "fill": "$text-secondary",
+                  "content": "長期合作單位",
+                  "fontFamily": "$font-main",
+                  "fontSize": 13,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "NUrL8",
+                  "name": "Logos",
+                  "gap": 44,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DFVH3",
+                      "name": "台北市政府環保局",
+                      "fill": "#B79AAA",
+                      "content": "台北市政府環保局",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z2mcn",
+                      "name": "新北清潔隊聯盟",
+                      "fill": "#B79AAA",
+                      "content": "新北清潔隊聯盟",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y3B3m",
+                      "name": "綠循環資源科技",
+                      "fill": "#B79AAA",
+                      "content": "綠循環資源科技",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dk4cT",
+                      "name": "安心社區管理協會",
+                      "fill": "#B79AAA",
+                      "content": "安心社區管理協會",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mSkDA",
+                      "name": "永續 ESG 聯盟",
+                      "fill": "#B79AAA",
+                      "content": "永續 ESG 聯盟",
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xPwQb",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "$white",
+          "padding": [
+            96,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ygxdm",
+              "name": "Contact Card",
+              "clip": true,
+              "width": "fill_container",
+              "height": 659,
+              "fill": "$pink-50",
+              "cornerRadius": 36,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "umjx1",
+                  "name": "Contact Info",
+                  "clip": true,
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "fill": [
+                    "$pink-500",
+                    {
+                      "type": "gradient",
+                      "gradientType": "linear",
+                      "enabled": true,
+                      "rotation": 135,
+                      "size": {
+                        "height": 1
+                      },
+                      "colors": [
+                        {
+                          "color": "#FF9BBD",
+                          "position": 0
+                        },
+                        {
+                          "color": "#ED5A8B",
+                          "position": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": 52,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SP7ME",
+                      "name": "Eyebrow",
+                      "fill": "#FFFFFFCC",
+                      "content": "CONTACT ‧ 聯絡我們",
+                      "fontFamily": "$font-main",
+                      "fontSize": 13,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "NtWcB",
+                      "name": "Title",
+                      "fill": "$white",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "留下需求，24 小時內回覆報價",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 32,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D5uFZ",
+                      "name": "Sub",
+                      "fill": "#FFFFFFD9",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "不論是單次大型廢棄物搬運，或是整個社區的長期合約，都歡迎與我們聊聊。",
+                      "lineHeight": 1.9,
+                      "fontFamily": "$font-main",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jwGMG",
+                      "name": "Info List",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "padding": [
+                        12,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OwEax",
+                          "name": "服務專線",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "jD8H9",
+                              "name": "Icon Wrap",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "#FFFFFF2E",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "MiGTS",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "phone",
+                                  "library": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZY9oX",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vG1ZC",
+                                  "name": "Key",
+                                  "fill": "#FFFFFFB8",
+                                  "content": "服務專線",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WNWny",
+                                  "name": "Value",
+                                  "fill": "$white",
+                                  "content": "0800-123-456",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 16,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e9mNA",
+                          "name": "電子信箱",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NFykz",
+                              "name": "Icon Wrap",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "#FFFFFF2E",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "EBKmy",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "mail",
+                                  "library": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qfc8i",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "J9C7f",
+                                  "name": "Key",
+                                  "fill": "#FFFFFFB8",
+                                  "content": "電子信箱",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZE6X4",
+                                  "name": "Value",
+                                  "fill": "$white",
+                                  "content": "service@cleanhome.tw",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 16,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WvFKt",
+                          "name": "服務據點",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "utZSb",
+                              "name": "Icon Wrap",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "#FFFFFF2E",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "MkZ9A",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "map-pin",
+                                  "library": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TUyBX",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xWJ1B",
+                                  "name": "Key",
+                                  "fill": "#FFFFFFB8",
+                                  "content": "服務據點",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "WgyIY",
+                                  "name": "Value",
+                                  "fill": "$white",
+                                  "content": "台北市內湖區環保路 88 號",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 16,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MH7gZ",
+                          "name": "服務時間",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bmHF8",
+                              "name": "Icon Wrap",
+                              "width": 40,
+                              "height": 40,
+                              "fill": "#FFFFFF2E",
+                              "cornerRadius": 999,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "p4xQ0",
+                                  "name": "Icon",
+                                  "width": 19,
+                                  "height": 19,
+                                  "icon": "alarm-clock",
+                                  "library": "lucide",
+                                  "fill": "$white"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "R7cRJ",
+                              "name": "Text",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vqCKI",
+                                  "name": "Key",
+                                  "fill": "#FFFFFFB8",
+                                  "content": "服務時間",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "y2Fzwi",
+                                  "name": "Value",
+                                  "fill": "$white",
+                                  "content": "週一至週六 07:00 - 20:00",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 16,
+                                  "fontWeight": "bold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q2X0z",
+                      "name": "Social",
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "L2rZg",
+                          "name": "facebook",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#FFFFFF2E",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tjXSU",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "facebook",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XU9RS",
+                          "name": "instagram",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#FFFFFF2E",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "a8rkc",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "instagram",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "r7slE6",
+                          "name": "youtube",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#FFFFFF2E",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "wgKq7",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "youtube",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Dd0hA",
+                          "name": "message-circle",
+                          "width": 40,
+                          "height": 40,
+                          "fill": "#FFFFFF2E",
+                          "cornerRadius": 999,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "G34hj",
+                              "name": "Icon",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "message-circle",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YAIg0",
+                  "name": "Contact Form",
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": 52,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hOBq6",
+                      "name": "Form Title",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "免費估價申請",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-main",
+                      "fontSize": 24,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XPTj5",
+                      "name": "Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZOkya",
+                          "name": "聯絡人",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HR0h7",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "聯絡人",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-main",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xA4ub",
+                              "name": "Input",
+                              "width": "fill_container",
+                              "fill": "$pink-50",
+                              "cornerRadius": 14,
+                              "stroke": "$pink-200",
+                              "strokeWidth": 1,
+                              "padding": [
+                                14,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "QL05q",
+                                  "name": "Placeholder",
+                                  "fill": "#B79AAA",
+                                  "content": "請輸入姓名",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "X1WfPF",
+                          "name": "聯絡電話",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k9VEW6",
+                              "name": "Label",
+                              "fill": "$text-secondary",
+                              "content": "聯絡電話",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-main",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DQ7ne",
+                              "name": "Input",
+                              "width": "fill_container",
+                              "fill": "$pink-50",
+                              "cornerRadius": 14,
+                              "stroke": "$pink-200",
+                              "strokeWidth": 1,
+                              "padding": [
+                                14,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "B7zJw6",
+                                  "name": "Placeholder",
+                                  "fill": "#B79AAA",
+                                  "content": "09xx-xxx-xxx",
+                                  "lineHeight": 1.5,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w5L1zO",
+                      "name": "服務地址",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 7,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HpBiN",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "服務地址",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Qj2zQ",
+                          "name": "Input",
+                          "width": "fill_container",
+                          "fill": "$pink-50",
+                          "cornerRadius": 14,
+                          "stroke": "$pink-200",
+                          "strokeWidth": 1,
+                          "padding": [
+                            14,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "c6N14",
+                              "name": "Placeholder",
+                              "fill": "#B79AAA",
+                              "content": "縣市 / 區 / 街道",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-main",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x4SKIp",
+                      "name": "服務類型",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 9,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AHkWr",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "服務類型",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "T9dCR",
+                          "name": "Chips",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zMcPt",
+                              "name": "社區清運",
+                              "fill": "$pink-500",
+                              "cornerRadius": 999,
+                              "stroke": "$pink-500",
+                              "strokeWidth": 1,
+                              "padding": [
+                                10,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "m41uo",
+                                  "name": "Label",
+                                  "fill": "$white",
+                                  "content": "社區清運",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Nm5WM",
+                              "name": "大型廢棄物",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "stroke": "$pink-200",
+                              "strokeWidth": 1,
+                              "padding": [
+                                10,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Izq27",
+                                  "name": "Label",
+                                  "fill": "$text-secondary",
+                                  "content": "大型廢棄物",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "lkcEJ",
+                              "name": "事業廢棄物",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "stroke": "$pink-200",
+                              "strokeWidth": 1,
+                              "padding": [
+                                10,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "uer3A",
+                                  "name": "Label",
+                                  "fill": "$text-secondary",
+                                  "content": "事業廢棄物",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Exmfs",
+                              "name": "其他",
+                              "fill": "$white",
+                              "cornerRadius": 999,
+                              "stroke": "$pink-200",
+                              "strokeWidth": 1,
+                              "padding": [
+                                10,
+                                18
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VNZvi",
+                                  "name": "Label",
+                                  "fill": "$text-secondary",
+                                  "content": "其他",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$font-main",
+                                  "fontSize": 13.5,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vlbvk",
+                      "name": "需求說明",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 7,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YpvR5",
+                          "name": "Label",
+                          "fill": "$text-secondary",
+                          "content": "需求說明",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kmgA5",
+                          "name": "Textarea",
+                          "width": "fill_container",
+                          "height": 96,
+                          "fill": "$pink-50",
+                          "cornerRadius": 14,
+                          "stroke": "$pink-200",
+                          "strokeWidth": 1,
+                          "padding": 16,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JT4BM",
+                              "name": "Placeholder",
+                              "fill": "#B79AAA",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "例如：每週二、五各一次，約 20 袋垃圾與 3 桶廚餘。",
+                              "lineHeight": 1.7,
+                              "fontFamily": "$font-main",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vq45Z",
+                      "name": "Submit",
+                      "width": "fill_container",
+                      "fill": "$pink-500",
+                      "cornerRadius": 999,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#FF7BA659",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 20
+                      },
+                      "gap": 9,
+                      "padding": [
+                        17,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R7GxnN",
+                          "name": "Label",
+                          "fill": "$white",
+                          "content": "送出免費估價",
+                          "fontFamily": "$font-main",
+                          "fontSize": 16,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "k2Zwq",
+                          "name": "Icon",
+                          "width": 17,
+                          "height": 17,
+                          "icon": "send",
+                          "library": "lucide",
+                          "fill": "$white"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sR91Q",
+                      "name": "Note",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "送出即表示同意我們的隱私權政策，資料僅用於報價聯繫。",
+                      "lineHeight": 1.6,
+                      "textAlign": "center",
+                      "fontFamily": "$font-main",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zXAzS",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$text-primary",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            56,
+            64,
+            36,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "K5U6C",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "gap": 80,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "k29c4",
+                  "name": "Brand Block",
+                  "width": 360,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BrYM2",
+                      "name": "Logo",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IhRsW",
+                          "name": "Logo Mark",
+                          "width": 38,
+                          "height": 38,
+                          "fill": "$pink-500",
+                          "cornerRadius": 13,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "B2q7mL",
+                              "name": "Icon",
+                              "width": 21,
+                              "height": 21,
+                              "icon": "recycle",
+                              "library": "lucide",
+                              "fill": "$white"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "psXBz",
+                          "name": "Brand",
+                          "fill": "$white",
+                          "content": "潔淨家園",
+                          "fontFamily": "$font-main",
+                          "fontSize": 19,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "G2vPj5",
+                      "name": "Desc",
+                      "fill": "#FFFFFF8A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "合法立案的環保清除機構，以低碳車隊與透明流向紀錄，陪伴社區與企業一起把環境照顧好。",
+                      "lineHeight": 1.9,
+                      "fontFamily": "$font-main",
+                      "fontSize": 13.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nGr7h",
+                  "name": "Footer Columns",
+                  "gap": 72,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KnfdQ",
+                      "name": "服務項目",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PFQd8",
+                          "name": "Head",
+                          "fill": "$white",
+                          "content": "服務項目",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "urx00",
+                          "name": "社區定期清運",
+                          "fill": "#FFFFFF8A",
+                          "content": "社區定期清運",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TyvuE",
+                          "name": "商辦大樓清潔",
+                          "fill": "#FFFFFF8A",
+                          "content": "商辦大樓清潔",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L6sLA0",
+                          "name": "大型廢棄物",
+                          "fill": "#FFFFFF8A",
+                          "content": "大型廢棄物",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "svjsL",
+                          "name": "事業廢棄物",
+                          "fill": "#FFFFFF8A",
+                          "content": "事業廢棄物",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ifnoX",
+                      "name": "關於我們",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X4zQ54",
+                          "name": "Head",
+                          "fill": "$white",
+                          "content": "關於我們",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "cuQyi",
+                          "name": "公司簡介",
+                          "fill": "#FFFFFF8A",
+                          "content": "公司簡介",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CxRiB",
+                          "name": "車輛設備",
+                          "fill": "#FFFFFF8A",
+                          "content": "車輛設備",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SDRXS",
+                          "name": "專業認證",
+                          "fill": "#FFFFFF8A",
+                          "content": "專業認證",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qPtot",
+                          "name": "永續報告",
+                          "fill": "#FFFFFF8A",
+                          "content": "永續報告",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mcVUD",
+                      "name": "支援",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R7uXp",
+                          "name": "Head",
+                          "fill": "$white",
+                          "content": "支援",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-main",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PTKfb",
+                          "name": "常見問題",
+                          "fill": "#FFFFFF8A",
+                          "content": "常見問題",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vDI5W",
+                          "name": "收費方式",
+                          "fill": "#FFFFFF8A",
+                          "content": "收費方式",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WbGPX",
+                          "name": "隱私權政策",
+                          "fill": "#FFFFFF8A",
+                          "content": "隱私權政策",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zYuXv",
+                          "name": "服務條款",
+                          "fill": "#FFFFFF8A",
+                          "content": "服務條款",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-main",
+                          "fontSize": 13.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "TVhfd",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "stroke": "#FFFFFF1F",
+              "strokeWidth": {
+                "top": 1
+              },
+              "gap": 24,
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nLLcA",
+                  "name": "Copyright",
+                  "fill": "#FFFFFF70",
+                  "content": "© 2026 潔淨家園環保清潔有限公司 ‧ 統編 12345678",
+                  "fontFamily": "$font-main",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LlVWr",
+                  "name": "Tagline",
+                  "fill": "$pink-300",
+                  "content": "乾淨，是一起做出來的",
+                  "fontFamily": "$font-main",
+                  "fontSize": 12.5,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "pink-50": {
+      "type": "color",
+      "value": "#FFF6F8"
+    },
+    "pink-100": {
+      "type": "color",
+      "value": "#FFE7EE"
+    },
+    "pink-200": {
+      "type": "color",
+      "value": "#FFD1DF"
+    },
+    "pink-300": {
+      "type": "color",
+      "value": "#FFB3CA"
+    },
+    "pink-500": {
+      "type": "color",
+      "value": "#FF7BA6"
+    },
+    "pink-600": {
+      "type": "color",
+      "value": "#ED5A8B"
+    },
+    "mint": {
+      "type": "color",
+      "value": "#6FD3B4"
+    },
+    "mint-light": {
+      "type": "color",
+      "value": "#DFF6EE"
+    },
+    "sun": {
+      "type": "color",
+      "value": "#FFD166"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#2E2230"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#7A6B7D"
+    },
+    "font-main": {
+      "type": "string",
+      "value": "Noto Sans TC"
+    }
+  },
+  "fileToken": "28d2a74b-7773-4cad-b51e-96e78e6feac8"
+}

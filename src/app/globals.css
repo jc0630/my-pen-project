@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --color-pink-50: #FFF6F8;
+  --color-pink-100: #FFE7EE;
+  --color-pink-200: #FFD1DF;
+  --color-pink-300: #FFB3CA;
+  --color-pink-500: #FF7BA6;
+  --color-pink-600: #ED5A8B;
+  --color-mint: #6FD3B4;
+  --color-mint-light: #DFF6EE;
+  --color-sun: #FFD166;
+  --color-white: #FFFFFF;
+  --color-text-primary: #2E2230;
+  --color-text-secondary: #7A6B7D;
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  .font-main {
+    font-family: var(--font-noto-sans-tc), "Noto Sans TC", system-ui, sans-serif;
+  }
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-text-primary);
+}
